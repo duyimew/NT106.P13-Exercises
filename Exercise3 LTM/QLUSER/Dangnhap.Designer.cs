@@ -85,7 +85,7 @@
             this.bt_DN.TabIndex = 4;
             this.bt_DN.Text = "Đăng nhập";
             this.bt_DN.UseVisualStyleBackColor = true;
-
+            this.bt_DN.Click += new System.EventHandler(this.bt_DN_Click);
             // 
             // bt_DK
             // 
@@ -101,7 +101,7 @@
             this.bt_DK.Text = "Đăng ký ngay";
             this.bt_DK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_DK.UseVisualStyleBackColor = true;
-
+            this.bt_DK.Click += new System.EventHandler(this.bt_DK_Click);
             // 
             // lb_DN
             // 
@@ -132,7 +132,7 @@
             this.bt_thoat.TabIndex = 8;
             this.bt_thoat.Text = "Thoát";
             this.bt_thoat.UseVisualStyleBackColor = true;
-
+            this.bt_thoat.Click += new System.EventHandler(this.bt_thoat_Click);
             // 
             // Dangnhap
             // 
