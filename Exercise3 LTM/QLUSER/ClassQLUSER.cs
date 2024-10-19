@@ -202,16 +202,18 @@ namespace QLUSER
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = securityKey,
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero
                 }, out SecurityToken validatedToken);
-
-                return true; 
+                return true;
             }
             catch
             {
                 return false;
             }
         }
+
         public string find(string name)
         {
             string fileNameToSearch = name;
