@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|c:\\70mai\\github\\nt106.p13-exercise-3\\exercise3 ltm\\qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|c:\\70mai\\github\\nt106.p13-exercise-3\\exercise3 ltm\\qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dangky.Designer.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangky.Designer.cs",
@@ -82,11 +82,12 @@
               "RelativeToolTip": "QLUSER\\Dangky.Designer.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:46:36.7Z"
+              "WhenOpened": "2024-10-18T09:46:36.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dangnhap.Designer.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.Designer.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangnhap.Designer.cs",
@@ -99,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "QLUSER.cs [Design]",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs",
               "RelativeDocumentMoniker": "QLUSER\\QLUSER.cs",
@@ -110,30 +111,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Dangnhap.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs*",
-              "RelativeToolTip": "QLUSER\\Dangnhap.cs*",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAuwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:15:27.493Z"
+              "WhenOpened": "2024-10-18T10:15:27.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:15:09.635Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dangnhap.cs [Design]",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs [Design]*",
-              "RelativeToolTip": "QLUSER\\Dangnhap.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:15:09.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Dangky.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
@@ -141,7 +144,8 @@
               "RelativeToolTip": "QLUSER\\Dangky.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:43:43.38Z"
+              "WhenOpened": "2024-10-18T09:43:43.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -217,9 +221,11 @@
               "Title": "Dangky.cs [Design]",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
-              "ToolTip": "D:\\IT003\\study\\LTM\\test\\QLUSER (2)\\QLUSER\\QLUSER\\QLUSER\\Dangky.cs [Design]",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Dangky.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:46:04.95Z"
+              "WhenOpened": "2024-10-18T09:46:04.95Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
