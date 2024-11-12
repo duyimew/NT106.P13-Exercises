@@ -129,7 +129,7 @@
             this.bt_Dk.TabIndex = 8;
             this.bt_Dk.Text = "Đăng ký";
             this.bt_Dk.UseVisualStyleBackColor = true;
-
+            this.bt_Dk.Click += new System.EventHandler(this.bt_DK_Click);
             // 
             // lb_DK
             // 
@@ -150,7 +150,7 @@
             this.bt_thoat.TabIndex = 10;
             this.bt_thoat.Text = "Thoát";
             this.bt_thoat.UseVisualStyleBackColor = true;
-
+            this.bt_thoat.Click += new System.EventHandler(this.bt_thoat_Click);
             // 
             // tb_hoten
             // 

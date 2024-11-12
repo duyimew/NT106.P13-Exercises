@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|c:\\70mai\\github\\nt106.p13-exercise-3\\exercise3 ltm\\qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|c:\\70mai\\github\\nt106.p13-exercise-3\\exercise3 ltm\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\qluser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,23 +70,72 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dangky.Designer.cs",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Dangky.Designer.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
-              "RelativeToolTip": "QLUSER\\Dangky.Designer.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "QLUSER.cs [Design]",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs",
+              "RelativeDocumentMoniker": "QLUSER\\QLUSER.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs [Design]",
+              "RelativeToolTip": "QLUSER\\QLUSER.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:46:36.7Z"
+              "WhenOpened": "2024-10-18T10:07:47.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:15:27.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:15:09.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Formuser.cs [Design]",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Formuser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:49:27.094Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Formuser.cs",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeToolTip": "QLUSER\\Formuser.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv3IAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:50:42.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dangnhap.Designer.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.Designer.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangnhap.Designer.cs",
@@ -99,41 +148,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dangky.Designer.cs",
+              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangky.Designer.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
+              "RelativeToolTip": "QLUSER\\Dangky.Designer.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:36.7Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QLUSER.cs [Design]",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs",
-              "RelativeDocumentMoniker": "QLUSER\\QLUSER.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs [Design]",
-              "RelativeToolTip": "QLUSER\\QLUSER.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:07:47.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dangnhap.cs",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs*",
-              "RelativeToolTip": "QLUSER\\Dangnhap.cs*",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:15:27.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dangnhap.cs [Design]",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs [Design]*",
-              "RelativeToolTip": "QLUSER\\Dangnhap.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:15:09.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Dangky.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
@@ -145,17 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Formuser.cs [Design]",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
-              "ToolTip": "D:\\IT003\\study\\LTM\\test\\QLUSER (2)\\QLUSER\\QLUSER\\QLUSER\\Formuser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:49:27.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Formuser.Designer.cs",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.Designer.cs",
               "RelativeDocumentMoniker": "QLUSER\\Formuser.Designer.cs",
@@ -163,19 +180,8 @@
               "RelativeToolTip": "QLUSER\\Formuser.Designer.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAwFkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:46:49.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Formuser.cs",
-              "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
-              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
-              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
-              "RelativeToolTip": "QLUSER\\Formuser.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:50:42.354Z"
+              "WhenOpened": "2024-10-18T09:46:49.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -217,7 +223,8 @@
               "Title": "Dangky.cs [Design]",
               "DocumentMoniker": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
               "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
-              "ToolTip": "D:\\IT003\\study\\LTM\\test\\QLUSER (2)\\QLUSER\\QLUSER\\QLUSER\\Dangky.cs [Design]",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Dangky.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T09:46:04.95Z"
             },
