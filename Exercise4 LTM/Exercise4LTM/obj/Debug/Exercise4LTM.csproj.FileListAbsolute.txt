@@ -1,0 +1,13 @@
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\bin\Debug\Exercise4LTM.exe.config
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\bin\Debug\Exercise4LTM.exe
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\bin\Debug\Exercise4LTM.pdb
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\bin\Debug\Newtonsoft.Json.dll
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\bin\Debug\Newtonsoft.Json.xml
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.AssemblyReference.cache
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.FindBook.resources
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.Properties.Resources.resources
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.GenerateResource.cache
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.CoreCompileInputs.cache
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise.69217944.Up2Date
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.exe
+D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.pdb
