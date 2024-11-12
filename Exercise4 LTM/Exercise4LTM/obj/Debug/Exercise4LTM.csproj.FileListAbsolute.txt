@@ -11,3 +11,20 @@ D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.C
 D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise.69217944.Up2Date
 D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.exe
 D:\Visual studio repos\Exercise4LTM\Exercise4LTM\obj\Debug\Exercise4LTM.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Exercise4LTM.exe.config
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Exercise4LTM.exe
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Exercise4LTM.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.AssemblyReference.cache
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.BookDetail.resources
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.CreateBookshelf.resources
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.FindBook.resources
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.Properties.Resources.resources
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.GenerateResource.cache
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.csproj.CoreCompileInputs.cache
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise.69217944.Up2Date
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.exe
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.Configuration.ConfigurationManager.xml

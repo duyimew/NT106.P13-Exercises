@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
+using System.Configuration;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Exercise4LTM
@@ -18,6 +19,7 @@ namespace Exercise4LTM
         public FindBook()
         {
             InitializeComponent();
+            
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -29,7 +31,8 @@ namespace Exercise4LTM
         private async void LoadBookData(string searchQuery)
         {
             dgvBooks.Rows.Clear();
-            string url = $"https://www.googleapis.com/books/v1/volumes?q={searchQuery}+intitle";
+            string apikey = ConfigurationManager.AppSettings["ApiKey"];
+            string url = $"https://www.googleapis.com/books/v1/volumes?q={searchQuery}&key={apikey}";
 
             progressBar1.Visible = true;
             progressBar1.Style = ProgressBarStyle.Marquee;
@@ -46,17 +49,18 @@ namespace Exercise4LTM
 
                     foreach (var item in items)
                     {
+                        string ID= item["id"]?.ToString();
                         string title = item["volumeInfo"]["title"]?.ToString();
-                        string authors = item["volumeInfo"]["authors"] != null
-                            ? string.Join(", ", item["volumeInfo"]["authors"])
-                            : "Unknown";
-                        string publishedDate = item["volumeInfo"]["publishedDate"]?.ToString() ?? "Unknown";
-                        string pageCount = item["volumeInfo"]["pageCount"]?.ToString() ?? "N/A";
-                        string categories = item["volumeInfo"]["categories"] != null
-                            ? string.Join(", ", item["volumeInfo"]["categories"])
-                            : "N/A";
+                        //string authors = item["volumeInfo"]["authors"] != null
+                         //   ? string.Join(", ", item["volumeInfo"]["authors"])
+                         //   : "Unknown";
+                       // string publishedDate = item["volumeInfo"]["publishedDate"]?.ToString() ?? "Unknown";
+                       // string pageCount = item["volumeInfo"]["pageCount"]?.ToString() ?? "N/A";
+                       // string categories = item["volumeInfo"]["categories"] != null
+                        //    ? string.Join(", ", item["volumeInfo"]["categories"])
+                        //    : "N/A";
 
-                        dgvBooks.Rows.Add(title, authors, publishedDate, pageCount, categories);
+                        dgvBooks.Rows.Add(ID,title);
                     }
                 }
                 catch (HttpRequestException e)
@@ -71,6 +75,24 @@ namespace Exercise4LTM
                 {
                     progressBar1.Visible = false;
                     progressBar1.Style = ProgressBarStyle.Continuous;
+                }
+            }
+        }
+        private void dgvBooks_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                var idCell = dgvBooks.Rows[e.RowIndex].Cells[0].Value;
+
+                if (idCell != null)
+                {
+                    string ID = idCell.ToString();
+                    BookDetail book = new BookDetail(ID);
+                    book.Show();
+                }
+                else
+                {
+                    MessageBox.Show("No data available in selected row.");
                 }
             }
         }

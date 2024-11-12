@@ -31,11 +31,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.rtbBookDetails = new System.Windows.Forms.RichTextBox();
-            this.btnAddToShelf = new System.Windows.Forms.Button();
-            this.btnRemoveFromShelf = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.btnRemoveFromShelf = new System.Windows.Forms.Button();
+            this.btnAddToShelf = new System.Windows.Forms.Button();
+            this.rtbBookDetails = new System.Windows.Forms.RichTextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -45,8 +45,9 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(787, 100);
+            this.panel1.Size = new System.Drawing.Size(590, 81);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -54,77 +55,87 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(11, 23);
+            this.label1.Location = new System.Drawing.Point(8, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 46);
+            this.label1.Size = new System.Drawing.Size(193, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Chi tiết sách";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(69)))), ((int)(((byte)(73)))));
-            this.panel2.Controls.Add(this.progressBar2);
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.progressBar1);
             this.panel2.Controls.Add(this.btnRemoveFromShelf);
             this.panel2.Controls.Add(this.btnAddToShelf);
             this.panel2.Controls.Add(this.rtbBookDetails);
-            this.panel2.Location = new System.Drawing.Point(1, 98);
+            this.panel2.Location = new System.Drawing.Point(1, 80);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(787, 484);
+            this.panel2.Size = new System.Drawing.Size(590, 393);
             this.panel2.TabIndex = 1;
-            // 
-            // rtbBookDetails
-            // 
-            this.rtbBookDetails.Location = new System.Drawing.Point(19, 32);
-            this.rtbBookDetails.Name = "rtbBookDetails";
-            this.rtbBookDetails.Size = new System.Drawing.Size(725, 228);
-            this.rtbBookDetails.TabIndex = 9;
-            this.rtbBookDetails.Text = "";
-            // 
-            // btnAddToShelf
-            // 
-            this.btnAddToShelf.Location = new System.Drawing.Point(19, 386);
-            this.btnAddToShelf.Name = "btnAddToShelf";
-            this.btnAddToShelf.Size = new System.Drawing.Size(204, 37);
-            this.btnAddToShelf.TabIndex = 10;
-            this.btnAddToShelf.Text = "Thêm vào kệ sách";
-            this.btnAddToShelf.UseVisualStyleBackColor = true;
-            // 
-            // btnRemoveFromShelf
-            // 
-            this.btnRemoveFromShelf.Location = new System.Drawing.Point(540, 386);
-            this.btnRemoveFromShelf.Name = "btnRemoveFromShelf";
-            this.btnRemoveFromShelf.Size = new System.Drawing.Size(204, 37);
-            this.btnRemoveFromShelf.TabIndex = 11;
-            this.btnRemoveFromShelf.Text = "Xoá khỏi kệ sách";
-            this.btnRemoveFromShelf.UseVisualStyleBackColor = true;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(19, 429);
+            this.progressBar1.Location = new System.Drawing.Point(15, 228);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.Size = new System.Drawing.Size(89, 19);
             this.progressBar1.TabIndex = 12;
             // 
-            // progressBar2
+            // btnRemoveFromShelf
             // 
-            this.progressBar2.Location = new System.Drawing.Point(540, 429);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(100, 23);
-            this.progressBar2.TabIndex = 13;
+            this.btnRemoveFromShelf.Location = new System.Drawing.Point(405, 314);
+            this.btnRemoveFromShelf.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRemoveFromShelf.Name = "btnRemoveFromShelf";
+            this.btnRemoveFromShelf.Size = new System.Drawing.Size(153, 30);
+            this.btnRemoveFromShelf.TabIndex = 11;
+            this.btnRemoveFromShelf.Text = "Xoá khỏi kệ sách";
+            this.btnRemoveFromShelf.UseVisualStyleBackColor = true;
+            this.btnRemoveFromShelf.Click += new System.EventHandler(this.btnRemoveFromShelf_Click);
+            // 
+            // btnAddToShelf
+            // 
+            this.btnAddToShelf.Location = new System.Drawing.Point(14, 314);
+            this.btnAddToShelf.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddToShelf.Name = "btnAddToShelf";
+            this.btnAddToShelf.Size = new System.Drawing.Size(153, 30);
+            this.btnAddToShelf.TabIndex = 10;
+            this.btnAddToShelf.Text = "Thêm vào kệ sách";
+            this.btnAddToShelf.UseVisualStyleBackColor = true;
+            this.btnAddToShelf.Click += new System.EventHandler(this.btnAddToShelf_Click);
+            // 
+            // rtbBookDetails
+            // 
+            this.rtbBookDetails.Location = new System.Drawing.Point(14, 26);
+            this.rtbBookDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbBookDetails.Name = "rtbBookDetails";
+            this.rtbBookDetails.Size = new System.Drawing.Size(545, 186);
+            this.rtbBookDetails.TabIndex = 9;
+            this.rtbBookDetails.Text = "";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(14, 277);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(152, 20);
+            this.textBox1.TabIndex = 13;
             // 
             // BookDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 581);
+            this.ClientSize = new System.Drawing.Size(590, 472);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BookDetail";
             this.Text = "BookDetail";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -135,9 +146,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.RichTextBox rtbBookDetails;
-        private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnRemoveFromShelf;
         private System.Windows.Forms.Button btnAddToShelf;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
