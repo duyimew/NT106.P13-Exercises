@@ -28,3 +28,17 @@ C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exerc
 C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\obj\Debug\Exercise4LTM.pdb
 C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Auth.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Books.v1.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Core.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.CodeDom.dll
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Auth.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Books.v1.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Books.v1.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Core.pdb
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\Google.Apis.Core.xml
+C:\Users\sangd\OneDrive\Documents\github\NT106.P13-Exercises\Exercise4 LTM\Exercise4LTM\bin\Debug\System.CodeDom.xml

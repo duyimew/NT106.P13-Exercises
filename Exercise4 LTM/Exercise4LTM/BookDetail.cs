@@ -1,8 +1,11 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Google.Apis.Auth.OAuth2;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -69,6 +72,7 @@ namespace Exercise4LTM
 
         private async void btnAddToShelf_Click(object sender, EventArgs e)
         {
+            string accessToken = await GetAccessToken();
             string volumeId = _id;
             string shelfId = textBox1.Text;
             if (shelfId != null && shelfId != "")
@@ -80,9 +84,18 @@ namespace Exercise4LTM
                 {
                     try
                     {
-                        HttpResponseMessage response = await client.PostAsync(url, null);
+                        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+                        HttpResponseMessage response = await client.PostAsync(url,null);
                         response.EnsureSuccessStatusCode();
-                        MessageBox.Show("Đã thêm sách vào kệ sách.");
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var content = await response.Content.ReadAsStringAsync();
+                            MessageBox.Show("Đã thêm sách vào kệ sách.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to retrieve bookshelves: " + response.ReasonPhrase);
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -94,6 +107,7 @@ namespace Exercise4LTM
 
         private async void btnRemoveFromShelf_Click(object sender, EventArgs e)
         {
+            string accessToken = await GetAccessToken();
             string volumeId = _id;
             string shelfId = textBox1.Text;
             if (shelfId != null && shelfId != "")
@@ -105,9 +119,18 @@ namespace Exercise4LTM
                 {
                     try
                     {
+                        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
                         HttpResponseMessage response = await client.PostAsync(url, null);
                         response.EnsureSuccessStatusCode();
-                        MessageBox.Show("Đã xóa sách khỏi kệ sách.");
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var content = await response.Content.ReadAsStringAsync();
+                            MessageBox.Show("Đã xóa sách khỏi kệ sách.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to retrieve bookshelves: " + response.ReasonPhrase);
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -115,6 +138,26 @@ namespace Exercise4LTM
                     }
                 }
             }
+
+        }
+        public async Task<string> GetAccessToken()
+        {
+            var clientSecrets = new ClientSecrets
+            {
+                ClientId = "986811667520-toi6v4nig8ilrdsh6p2ik5dh079vguqt.apps.googleusercontent.com",
+                ClientSecret = "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"
+            };
+
+            var scopes = new[] { "https://www.googleapis.com/auth/books" };
+
+            var credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+                clientSecrets,
+                scopes,
+                "user",
+                CancellationToken.None
+            );
+
+            return credential.Token.AccessToken;
         }
     }
 }

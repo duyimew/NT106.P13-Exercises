@@ -96,5 +96,11 @@ namespace Exercise4LTM
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CreateBookshelf cb= new CreateBookshelf();
+            cb.Show();
+        }
     }
 }
