@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|d:\\group-11-nt106.p13\\exercise 3\\nt106.p13-exercise-3\\exercise3 ltm\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\qluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\qluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\classqluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\classqluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\qluser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\qluser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\qluser\\app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{72FE3202-5C92-401A-9303-EBE07A93B9C0}|QLUSER\\QLUSER.csproj|solutionrelative:qluser\\app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgotPass.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ForgotPass.cs",
+              "RelativeDocumentMoniker": "QLUSER\\ForgotPass.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ForgotPass.cs",
+              "RelativeToolTip": "QLUSER\\ForgotPass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:13:31.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAhwEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:15:27.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Formuser.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Formuser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:49:27.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Formuser.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Formuser.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.cs",
+              "RelativeToolTip": "QLUSER\\Formuser.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAASwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:50:42.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SERVER.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.cs",
+              "RelativeDocumentMoniker": "QLUSER\\SERVER.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.cs [Design]",
+              "RelativeToolTip": "QLUSER\\SERVER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T06:31:19.6Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SERVER.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.cs",
+              "RelativeDocumentMoniker": "QLUSER\\SERVER.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.cs",
+              "RelativeToolTip": "QLUSER\\SERVER.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAuwCMBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:48:28.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QLUSER.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs",
+              "RelativeDocumentMoniker": "QLUSER\\QLUSER.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.cs [Design]",
+              "RelativeToolTip": "QLUSER\\QLUSER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:07:47.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "QLUSER\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:15:09.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPass.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ForgotPass.cs",
+              "RelativeDocumentMoniker": "QLUSER\\ForgotPass.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ForgotPass.cs [Design]",
+              "RelativeToolTip": "QLUSER\\ForgotPass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:10:38.678Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Formuser.Designer.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Formuser.Designer.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Formuser.Designer.cs",
+              "RelativeToolTip": "QLUSER\\Formuser.Designer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwM0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:49.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassQLUSER.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ClassQLUSER.cs",
+              "RelativeDocumentMoniker": "QLUSER\\ClassQLUSER.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\ClassQLUSER.cs",
+              "RelativeToolTip": "QLUSER\\ClassQLUSER.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAowCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:19:25.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Program.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Program.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Program.cs",
+              "RelativeToolTip": "QLUSER\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T06:12:25.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dangnhap.Designer.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangnhap.Designer.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangnhap.Designer.cs",
+              "RelativeToolTip": "QLUSER\\Dangnhap.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:44.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dangky.Designer.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangky.Designer.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.Designer.cs",
+              "RelativeToolTip": "QLUSER\\Dangky.Designer.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:36.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dangky.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
+              "RelativeToolTip": "QLUSER\\Dangky.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:43:43.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QLUSER.Designer.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\QLUSER.Designer.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\QLUSER.Designer.cs",
+              "RelativeToolTip": "QLUSER\\QLUSER.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SERVER.Designer.cs",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.Designer.cs",
+              "RelativeDocumentMoniker": "QLUSER\\SERVER.Designer.cs",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\SERVER.Designer.cs",
+              "RelativeToolTip": "QLUSER\\SERVER.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:47:00.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dangky.cs [Design]",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs",
+              "RelativeDocumentMoniker": "QLUSER\\Dangky.cs",
+              "ToolTip": "C:\\70mai\\github\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\Dangky.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:46:04.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "app1.manifest",
+              "DocumentMoniker": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\app1.manifest",
+              "RelativeDocumentMoniker": "QLUSER\\app1.manifest",
+              "ToolTip": "D:\\Group-11-NT106.P13\\Exercise 3\\NT106.P13-Exercise-3\\Exercise3 LTM\\QLUSER\\app1.manifest",
+              "RelativeToolTip": "QLUSER\\app1.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-10-18T09:43:36.69Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
