@@ -73,8 +73,8 @@ namespace QLUSER
                         if (DATA.ValidateToken(token))
                         {
                             Dangnhap dangnhap = new Dangnhap(diachiip);
-                            Formuser mainForm = new Formuser(username, token, dangnhap, diachiip);
-                            mainForm.Show();
+                            FindBook findBook= new FindBook(username, token,dangnhap,diachiip);
+                            findBook.Show();
                         }
                         else
                         {

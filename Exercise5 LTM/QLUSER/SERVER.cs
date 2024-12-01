@@ -124,7 +124,7 @@ namespace QLUSER
                         byte[] send = Encoding.ASCII.GetBytes(result.ToString());
                         clientSocket.Send(send);
                     }
-                    if (text.Contains("DN"))
+                    else if (text.Contains("DN"))
                     {
                         string[] str = text.Split('|');
                         string[] result = Dangnhap(str);
@@ -132,7 +132,7 @@ namespace QLUSER
                         byte[] send = Encoding.ASCII.GetBytes(data);
                         clientSocket.Send(send);
                     }
-                    if (text.Contains("RQ"))
+                    else if (text.Contains("RQ"))
                     {
                         string[] str = text.Split('|');
                         string[] result = request(str);
@@ -140,7 +140,22 @@ namespace QLUSER
                         byte[] send = Encoding.ASCII.GetBytes(data);
                         clientSocket.Send(send);
                     }
-                    
+                    else if(text.Contains("FP"))
+                    {
+                        string[] str = text.Split('|');
+                        string result = Forgotpass(str);
+                        string data = result;
+                        byte[] send = Encoding.ASCII.GetBytes(data);
+                        clientSocket.Send(send);
+                    }
+                    else if(text.Contains("DMKM"))
+                    {
+                        string[] str = text.Split('|');
+                        string result = DoiMatKhauMoi(str);
+                        string data = result;
+                        byte[] send = Encoding.ASCII.GetBytes(data);
+                        clientSocket.Send(send);
+                    }
                     else if (text == "quit")
                     {
                         lv_ClientsView.Items.Add(new ListViewItem("client disconnected"));
@@ -275,6 +290,105 @@ namespace QLUSER
                 return result;
             }
         }
+        private string Forgotpass(string[] str)
+        {
+            string result = "0";
+            
+            try
+            {
+                ClassQLUSER data = new ClassQLUSER();
+                SqlConnection connectionDB = data.ConnectToDatabase();
+                if (connectionDB == null)
+                {
+                    return result;
+                }
+                string checkEmailQuery = "SELECT COUNT(*) FROM Users WHERE Email = @Email";
+                SqlCommand checkCmd = new SqlCommand(checkEmailQuery, connectionDB);
+                checkCmd.Parameters.AddWithValue("@Email", str[1]);
+
+                int emailExists = (int)checkCmd.ExecuteScalar();
+                if (emailExists == 0)
+                {
+                    result ="Email khong ton tai";
+                    return result;
+                }
+                string newpass = data.GenerateRandomPassword();
+                string hashpass = data.HashPassword(newpass);
+                string updateQuery = "UPDATE Users SET Password = @password WHERE Email = @Email";
+                SqlCommand cmd = new SqlCommand(updateQuery, connectionDB);
+                cmd.Parameters.AddWithValue("@password", hashpass);
+                cmd.Parameters.AddWithValue("@Email", str[1]);
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    result = "1";
+                    data.SendEmail(str[1], newpass);
+                    return result;
+                }
+                else
+                {
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi yêu cầu server: " + ex.Message);
+                return result;
+            }
+        }
+
+        private string DoiMatKhauMoi(string[] str)
+        {
+            string result = "0";
+            string username = str[3];
+            string mkHienTai = str[1];
+            string hashPassMoi = str[2];
+
+            try
+            {
+                ClassQLUSER data = new ClassQLUSER();
+                SqlConnection connectionDB = data.ConnectToDatabase();
+                if (connectionDB == null)
+                {
+                    return result;
+                }
+                string checkPasswordQuery = "SELECT Password FROM Users WHERE Username = @username";
+                SqlCommand checkCmd = new SqlCommand(checkPasswordQuery, connectionDB);
+                checkCmd.Parameters.AddWithValue("@username", username);
+
+                string currentPasswordInDB = (string)checkCmd.ExecuteScalar();
+                if (currentPasswordInDB == null || !currentPasswordInDB.Equals(mkHienTai))
+                {
+                    result = "Mat khau hien tai khong dung.";
+                    return result;
+                }
+
+                string updateQuery = "UPDATE Users SET Password = @password WHERE Username = @username";
+                SqlCommand cmd = new SqlCommand(updateQuery, connectionDB);
+                cmd.Parameters.AddWithValue("@password", hashPassMoi);
+                cmd.Parameters.AddWithValue("@username", username);
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    result = "1";
+                }
+                else
+                {
+                    result="Khong the cap nhat mat khau.";
+                    return result;
+                }
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                result = ex.Message;
+                return result;
+            }
+        }
+
         private void StopServer()
         {
             try

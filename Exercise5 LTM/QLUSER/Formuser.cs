@@ -21,9 +21,15 @@ namespace QLUSER
         Dangnhap DN;
         TcpClient tcpClient = new TcpClient();
         private IPAddress ipAddress;
-        public Formuser(string username, string token, Dangnhap dN, string diachiip)
+        private string diachiip1;
+        private string username1;
+        FindBook findBook1;
+        public Formuser(string username, string token, Dangnhap dN,FindBook findBook, string diachiip)
         {
             InitializeComponent();
+            username1 = username;
+            diachiip1=diachiip;
+            findBook1 = findBook;
             try
             {
                 if (diachiip == "")
@@ -96,7 +102,7 @@ namespace QLUSER
         {
             try
             {
-                DN.Show();
+                findBook1.Show();
                 this.Close();
             }
             catch (Exception ex)
@@ -112,7 +118,9 @@ namespace QLUSER
             if (tokenFile != null && File.Exists(tokenFile))
             {
                 File.Delete(tokenFile);
-                bt_thoat.PerformClick();
+                DN.Show();
+                findBook1.Close();
+                this.Close();
                 MessageBox.Show("Đăng xuất thành công!");
             }
         }
@@ -162,7 +170,8 @@ namespace QLUSER
 
         private void btn_ChangePass_Click(object sender, EventArgs e)
         {
-
+            DoiMatKhau doiMatKhau = new DoiMatKhau(this,username1,diachiip1);
+            doiMatKhau.Show();
         }
     }
 }

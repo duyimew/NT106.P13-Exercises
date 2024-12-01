@@ -45,21 +45,19 @@
             // tb_username
             // 
             this.tb_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tb_username.Location = new System.Drawing.Point(240, 159);
-            this.tb_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_username.Location = new System.Drawing.Point(180, 129);
             this.tb_username.Name = "tb_username";
             this.tb_username.ReadOnly = true;
-            this.tb_username.Size = new System.Drawing.Size(244, 26);
+            this.tb_username.Size = new System.Drawing.Size(184, 23);
             this.tb_username.TabIndex = 0;
             // 
             // lb_username
             // 
             this.lb_username.AutoSize = true;
             this.lb_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lb_username.Location = new System.Drawing.Point(87, 167);
-            this.lb_username.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_username.Location = new System.Drawing.Point(65, 136);
             this.lb_username.Name = "lb_username";
-            this.lb_username.Size = new System.Drawing.Size(86, 20);
+            this.lb_username.Size = new System.Drawing.Size(73, 17);
             this.lb_username.TabIndex = 1;
             this.lb_username.Text = "Username";
             // 
@@ -67,20 +65,18 @@
             // 
             this.lb_user.AutoSize = true;
             this.lb_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.lb_user.Location = new System.Drawing.Point(88, 44);
-            this.lb_user.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_user.Location = new System.Drawing.Point(66, 36);
             this.lb_user.Name = "lb_user";
-            this.lb_user.Size = new System.Drawing.Size(495, 58);
+            this.lb_user.Size = new System.Drawing.Size(394, 46);
             this.lb_user.TabIndex = 2;
             this.lb_user.Text = "Thông tin người dùng";
             // 
             // bt_thoat
             // 
             this.bt_thoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.bt_thoat.Location = new System.Drawing.Point(99, 393);
-            this.bt_thoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_thoat.Location = new System.Drawing.Point(74, 319);
             this.bt_thoat.Name = "bt_thoat";
-            this.bt_thoat.Size = new System.Drawing.Size(127, 46);
+            this.bt_thoat.Size = new System.Drawing.Size(95, 37);
             this.bt_thoat.TabIndex = 9;
             this.bt_thoat.Text = "Tắt";
             this.bt_thoat.UseVisualStyleBackColor = true;
@@ -89,73 +85,66 @@
             // tb_email
             // 
             this.tb_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tb_email.Location = new System.Drawing.Point(240, 207);
-            this.tb_email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_email.Location = new System.Drawing.Point(180, 168);
             this.tb_email.Name = "tb_email";
             this.tb_email.ReadOnly = true;
-            this.tb_email.Size = new System.Drawing.Size(244, 26);
+            this.tb_email.Size = new System.Drawing.Size(184, 23);
             this.tb_email.TabIndex = 0;
             // 
             // lb_email
             // 
             this.lb_email.AutoSize = true;
             this.lb_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lb_email.Location = new System.Drawing.Point(87, 215);
-            this.lb_email.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_email.Location = new System.Drawing.Point(65, 175);
             this.lb_email.Name = "lb_email";
-            this.lb_email.Size = new System.Drawing.Size(51, 20);
+            this.lb_email.Size = new System.Drawing.Size(42, 17);
             this.lb_email.TabIndex = 1;
             this.lb_email.Text = "Email";
             // 
             // tb_HienTen
             // 
             this.tb_HienTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tb_HienTen.Location = new System.Drawing.Point(240, 256);
-            this.tb_HienTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_HienTen.Location = new System.Drawing.Point(180, 208);
             this.tb_HienTen.Name = "tb_HienTen";
             this.tb_HienTen.ReadOnly = true;
-            this.tb_HienTen.Size = new System.Drawing.Size(244, 26);
+            this.tb_HienTen.Size = new System.Drawing.Size(184, 23);
             this.tb_HienTen.TabIndex = 0;
             // 
             // lb_Ten
             // 
             this.lb_Ten.AutoSize = true;
             this.lb_Ten.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lb_Ten.Location = new System.Drawing.Point(87, 265);
-            this.lb_Ten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_Ten.Location = new System.Drawing.Point(65, 215);
             this.lb_Ten.Name = "lb_Ten";
-            this.lb_Ten.Size = new System.Drawing.Size(37, 20);
+            this.lb_Ten.Size = new System.Drawing.Size(33, 17);
             this.lb_Ten.TabIndex = 1;
             this.lb_Ten.Text = "Tên";
             // 
             // tb_HIenNgSinh
             // 
             this.tb_HIenNgSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tb_HIenNgSinh.Location = new System.Drawing.Point(240, 306);
-            this.tb_HIenNgSinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_HIenNgSinh.Location = new System.Drawing.Point(180, 249);
             this.tb_HIenNgSinh.Name = "tb_HIenNgSinh";
             this.tb_HIenNgSinh.ReadOnly = true;
-            this.tb_HIenNgSinh.Size = new System.Drawing.Size(244, 26);
+            this.tb_HIenNgSinh.Size = new System.Drawing.Size(184, 23);
             this.tb_HIenNgSinh.TabIndex = 0;
             // 
             // lb_NgSinh
             // 
             this.lb_NgSinh.AutoSize = true;
             this.lb_NgSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lb_NgSinh.Location = new System.Drawing.Point(87, 315);
-            this.lb_NgSinh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_NgSinh.Location = new System.Drawing.Point(65, 256);
             this.lb_NgSinh.Name = "lb_NgSinh";
-            this.lb_NgSinh.Size = new System.Drawing.Size(83, 20);
+            this.lb_NgSinh.Size = new System.Drawing.Size(71, 17);
             this.lb_NgSinh.TabIndex = 1;
             this.lb_NgSinh.Text = "Ngày sinh";
             // 
             // bt_dangxuat
             // 
             this.bt_dangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.bt_dangxuat.Location = new System.Drawing.Point(497, 393);
-            this.bt_dangxuat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_dangxuat.Location = new System.Drawing.Point(373, 319);
             this.bt_dangxuat.Name = "bt_dangxuat";
-            this.bt_dangxuat.Size = new System.Drawing.Size(127, 46);
+            this.bt_dangxuat.Size = new System.Drawing.Size(95, 37);
             this.bt_dangxuat.TabIndex = 10;
             this.bt_dangxuat.Text = "Đăng xuất";
             this.bt_dangxuat.UseVisualStyleBackColor = true;
@@ -164,10 +153,9 @@
             // btn_ChangePass
             // 
             this.btn_ChangePass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btn_ChangePass.Location = new System.Drawing.Point(282, 393);
-            this.btn_ChangePass.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ChangePass.Location = new System.Drawing.Point(212, 319);
             this.btn_ChangePass.Name = "btn_ChangePass";
-            this.btn_ChangePass.Size = new System.Drawing.Size(127, 46);
+            this.btn_ChangePass.Size = new System.Drawing.Size(113, 37);
             this.btn_ChangePass.TabIndex = 12;
             this.btn_ChangePass.Text = "Đổi mật khẩu";
             this.btn_ChangePass.UseVisualStyleBackColor = true;
@@ -175,9 +163,9 @@
             // 
             // Formuser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 554);
+            this.ClientSize = new System.Drawing.Size(515, 450);
             this.Controls.Add(this.btn_ChangePass);
             this.Controls.Add(this.bt_dangxuat);
             this.Controls.Add(this.bt_thoat);
@@ -190,7 +178,6 @@
             this.Controls.Add(this.tb_email);
             this.Controls.Add(this.lb_username);
             this.Controls.Add(this.tb_username);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Formuser";
             this.Text = "Formuser";
             this.ResumeLayout(false);

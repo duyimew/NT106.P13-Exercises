@@ -90,8 +90,8 @@ namespace QLUSER
                         string filepath = data.find("token.txt");
                         File.WriteAllText(filepath, username + "|" + token);
                         MessageBox.Show("Đăng nhập thành công");
-                        Formuser mainForm = new Formuser(username, token, this, diachi);
-                        mainForm.Show();
+                        FindBook findBook = new FindBook(username, token, this, diachi);
+                        findBook.Show();
                         this.Hide();
                     }
                     else MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng");
@@ -154,7 +154,8 @@ namespace QLUSER
 
         private void btn_ForgotPass_Click(object sender, EventArgs e)
         {
-            ForgotPass forgotPass = new ForgotPass();
+            this.Hide();
+            ForgotPass forgotPass = new ForgotPass(this,diachi);
             forgotPass.Show();
         }
 

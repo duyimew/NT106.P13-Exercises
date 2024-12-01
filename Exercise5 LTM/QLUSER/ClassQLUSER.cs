@@ -11,6 +11,9 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
+using System.Linq;
+using System.Net;
 namespace QLUSER
 {
     internal class ClassQLUSER
@@ -229,6 +232,56 @@ namespace QLUSER
                 MessageBox.Show("Không tìm thấy file SQL với tên: " + fileNameToSearch);
                 return null;
             }
-        }       
+        }
+        public string ValidatePassword(string password)
+        {
+            if (password.Length > 16 || password.Length < 8)
+            {
+                MessageBox.Show("Mật khẩu phải có ít nhất 8 ký tự và tối đa 16 ký tự");
+            }
+            if (!Regex.IsMatch(password, @"[A-Z]"))
+                return "Mật khẩu phải chứa ít nhất một chữ cái viết hoa.";
+
+            if (!Regex.IsMatch(password, @"[a-z]"))
+                return "Mật khẩu phải chứa ít nhất một chữ cái viết thường.";
+
+            if (!Regex.IsMatch(password, @"\d"))
+                return "Mật khẩu phải chứa ít nhất một chữ số.";
+
+            if (Regex.IsMatch(password, @"[!@#$%^&*(),.?\"":{ }|<>]"))
+                return "Mật khẩu không được chứa ký tự đặc biệt (!@#$%^&*(),.?\":{}|<>).";
+            return "Hợp lệ";
+        }
+        public string GenerateRandomPassword()
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            Random random = new Random();
+            return new string(Enumerable.Repeat(chars, 10)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        public void SendEmail(string recipientEmail, string newPassword)
+        {
+            try
+            {
+                MailMessage mail = new MailMessage();
+                mail.From = new MailAddress("chatapp710@gmail.com");
+                mail.To.Add(recipientEmail);
+                mail.Subject = "Password Reset Request";
+                mail.Body = $"Your new password is: {newPassword}";
+
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com")
+                {
+                    Port = 587,
+                    Credentials = new NetworkCredential("chatapp710@gmail.com", "mmymzuivyjhhqmtw"),
+                    EnableSsl = true,
+                };
+
+                smtpClient.Send(mail);
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
     }
 }
